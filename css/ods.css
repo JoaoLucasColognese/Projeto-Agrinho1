@@ -1,0 +1,58 @@
+.ods_onu {
+    background-color: var(--cinza);
+    color: var(--branco);
+    padding: 1em;
+}
+
+.ods_onu-titulo {
+    font-size: 50px;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+
+.ods_onu_imagem {
+    width: 100%;
+    height: 100%;
+}
+.ods_onu-texto {
+    font-size: 45px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    padding-top: 1em;
+}
+
+@media (max-width: 480px) {
+
+    .ods_onu {
+        width: 480px;
+        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .ods_onu-titulo {
+        font-size: 35px;
+        font-family: var(--fonte-principal);
+        font-weight: 700;
+        text-align: center;
+        padding: 0.5em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .ods_onu_imagem {
+        width: 100%;
+        height: 100%;
+    }
+    .ods_onu-texto {
+        width: 470px;
+        font-size: 18px;
+        font-family: var(--fonte-principal);
+        font-weight: 500;
+        padding-top: 0.5em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

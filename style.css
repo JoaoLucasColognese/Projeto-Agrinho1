@@ -1,0 +1,39 @@
+@import url("reset.css");
+@import url("css/header.css");
+@import url("css/banner.css");
+@import url("css/oquepossofazer.css");
+@import url("css/ods.css");
+@import url("css/rodape.css");
+
+:root {
+    --cor-de-fundo: rgb(211, 211, 211);
+    --branco: white;
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans";
+    --laranja: orange;
+    --verde-degrade: linear-gradient(97.54deg, #005221 35.49%, #328948 165.37%);
+    --azul-degrade: linear-gradient(97.54deg, #120052 35.49%, #393289 165.37%);
+    --preto: black;
+    --cinza: rgb(77, 77, 77);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+@media (max-width: 1024px) {
+
+    body {
+     width: 100%;
+     max-width: 1024px;
+    } 
+}
+
+@media (max-width: 480px) {
+
+    body {
+        width: 100%;
+        max-width: 480px;
+    }
+}
+
