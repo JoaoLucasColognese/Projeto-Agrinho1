@@ -61,6 +61,7 @@
     }
 
     .metas__globais {
-    backgrond-color: var(--azul-degrade);
-}
+        font-size: 22px;
+        backgrond-color: var(--azul-degrade);
+    }
 }
