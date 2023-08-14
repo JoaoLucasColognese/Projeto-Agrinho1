@@ -32,9 +32,10 @@
 
 a {
     text-decoration: none;
-    color: var(--preto);
+    color: var(--laranja);
     font-family: var(--fonte-principal);
     font-weight: 500;
+    padding-left: 0.6em;
 }
 
 .pequenos_gestos-titulo {
