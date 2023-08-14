@@ -56,12 +56,13 @@
         font-family: var(--fonte-principal);
         font-weight: 500;
         padding-top: 0.5em;
-        padding-left: 0;
+        padding-left: 0.6em;
         padding-right: 0;
     }
 
     .metas__globais {
         font-size: 22px;
         backgrond-color: var(--azul-degrade);
+        padding-top: 0.5em;
     }
 }
