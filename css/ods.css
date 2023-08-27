@@ -24,7 +24,7 @@
 }
 
 .metas__globais {
-    backgrond-color: var(--azul-degrade);
+    background-color: var(--azul-degrade);
 }
 
 @media (max-width: 480px) {
@@ -62,7 +62,7 @@
 
     .metas__globais {
         font-size: 22px;
-        backgrond-color: var(--azul-degrade);
+        background-color: var(--azul-degrade);
         padding-top: 0.5em;
     }
 }
